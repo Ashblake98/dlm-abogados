@@ -17,6 +17,8 @@ export default function Home() {
       <main>
         <Hero />
 
+        <Mercantil />
+
         <Services />
 
         <WhyChoose />
