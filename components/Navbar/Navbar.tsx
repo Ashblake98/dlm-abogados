@@ -30,8 +30,8 @@ export default function Navbar() {
     >
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <Image
-  src="/icons/icon-512.png"
+<Image
+  src="/icons/icon-192.png"
   alt="DLM Abogados"
   width={55}
   height={55}
