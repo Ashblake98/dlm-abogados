@@ -27,8 +27,6 @@ export default function Home() {
 
         <Process />
 
-        <Mercantil />
-
         <Contact />
       </main>
 
