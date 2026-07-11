@@ -31,11 +31,11 @@ export default function Navbar() {
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
           <Image
-            src="/logo-dlm.png"
-            alt="DLM Abogados"
-            width={55}
-            height={55}
-          />
+  src="/icons/icon-512.png"
+  alt="DLM Abogados"
+  width={55}
+  height={55}
+/>
 
           <div>
             <h3>DLM Abogados</h3>
