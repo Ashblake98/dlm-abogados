@@ -1468,3 +1468,89 @@ padding:18px;
     line-height:1.6;
 
 }
+
+/* ==========================
+   AJUSTES MOBILE HERO/SERVICES
+========================== */
+
+@media(max-width:700px){
+
+    /* textos servicios */
+    .service-card h3,
+    .service-card p,
+    .service-card{
+        color:#222;
+    }
+
+
+    .service-card h3{
+        font-weight:700;
+    }
+
+
+    /* botones hero */
+    .hero-text a,
+    .hero-buttons a,
+    .hero-btn{
+
+        width:100%;
+        max-width:330px;
+        margin:10px auto;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+        height:55px;
+
+        border-radius:15px;
+
+        font-size:17px;
+
+    }
+
+
+    /* boton principal */
+    .hero-btn{
+
+        background:#c9a227;
+        color:white;
+
+    }
+
+
+    /* boton whatsapp */
+    .hero-buttons .outline,
+    .whatsapp-btn{
+
+        background:white;
+        color:#c9a227;
+
+        border:2px solid #c9a227;
+
+    }
+
+
+    /* lista inferior */
+    .hero-features,
+    .features{
+
+        margin-top:35px;
+
+    }
+
+
+    .hero-features div,
+    .features div{
+
+        color:#444 !important;
+
+        opacity:1 !important;
+
+        font-weight:600;
+
+        margin-bottom:18px;
+
+    }
+
+}

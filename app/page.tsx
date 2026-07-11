@@ -7,7 +7,7 @@ import Process from "@/components/Process";
 import Contact from "@/components/Contact";
 import WhatsappButton from "@/components/WhatsappButton";
 import Footer from "@/components/Footer";
-import Mercantil from "../components/Mercantil";
+import Mercantil from "@/components/Mercantil";
 
 export default function Home() {
   return (
@@ -17,8 +17,6 @@ export default function Home() {
       <main>
         <Hero />
 
-        <Mercantil />
-
         <Services />
 
         <WhyChoose />
@@ -26,6 +24,8 @@ export default function Home() {
         <Stats />
 
         <Process />
+
+        <Mercantil />
 
         <Contact />
       </main>
