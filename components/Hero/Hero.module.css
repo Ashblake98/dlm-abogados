@@ -432,7 +432,8 @@ font-family:Georgia, serif;
 @media(max-width:768px){
 
 .hero{
-    padding:70px 0 80px;
+      width:100%;
+  min-height:900px;
 }
 
 
@@ -480,26 +481,20 @@ font-family:Georgia, serif;
   }
 
 
-  .content h2{
-
+.content h2{
     font-size:1.2rem;
-
-    color:#555;
-
+    color:white;
     margin-bottom:18px;
+    text-shadow:0 2px 8px rgba(0,0,0,.8);
+}
 
-  }
 
-
-  .content p{
-
+.content p{
     font-size:.98rem;
-
-    color:#666;
-
+    color:white;
     line-height:1.7;
-
-  }
+    text-shadow:0 2px 8px rgba(0,0,0,.8);
+}
 
 
   /* BOTONES MOVIL */
