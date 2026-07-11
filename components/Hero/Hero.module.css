@@ -431,9 +431,9 @@ font-family:Georgia, serif;
 
 @media(max-width:768px){
 
-  .hero{
-    padding:70px 0 35px;
-  }
+.hero{
+    padding:70px 0 80px;
+}
 
 
   .container{
@@ -568,13 +568,17 @@ font-family:Georgia, serif;
 }
 
 
-  .features div{
+.features div{
 
-    color:#555;
+    color:white;
 
     font-size:15px;
 
-  }
+    font-weight:700;
+
+    text-shadow:0 2px 8px rgba(0,0,0,.8);
+
+}
 
 
   .features svg{
@@ -586,7 +590,7 @@ font-family:Georgia, serif;
 
 .imageSection{
 
-    margin-top:135px;
+    margin-top:80px;
 
 }
 
