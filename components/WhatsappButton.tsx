@@ -1,7 +1,7 @@
 "use client";
 
 import { MessageCircle } from "lucide-react";
-
+import { FaWhatsapp } from "react-icons/fa";
 export default function WhatsappButton() {
 
   const phone = "50255957959";
@@ -21,7 +21,7 @@ export default function WhatsappButton() {
       className="whatsapp"
     >
 
-      <MessageCircle size={32}/>
+      <FaWhatsapp size={34} />
 
     </a>
   );

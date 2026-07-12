@@ -1,7 +1,11 @@
 "use client";
-
+import { FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
-import { Scale, Briefcase, FileText } from "lucide-react";
+import {
+  Scale,
+  Briefcase,
+  FileText,
+} from "lucide-react";
 import styles from "./Hero.module.css";
 import { Allura } from "next/font/google";
 
@@ -46,15 +50,15 @@ export default function Hero() {
             <a href="#contacto" className={styles.primary}>
               Solicitar Asesoría
             </a>
-
-            <a
-              href="https://wa.me/50255957959"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.secondary}
-            >
-              WhatsApp
-            </a>
+<a
+  href="https://wa.me/50255957959"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={styles.secondary}
+>
+  <FaWhatsapp size={22} />
+  WhatsApp
+</a>
 
           </div>
 
